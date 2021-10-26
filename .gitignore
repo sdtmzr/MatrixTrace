@@ -1,0 +1,8 @@
+/.vs
+/MatrixLibraryTests/bin
+/MatrixLibraryTests/obj
+/MatrixApp/bin
+/MatrixApp/obj
+/MatrixLibrary/bin
+/MatrixLibrary/obj
+/TestResults

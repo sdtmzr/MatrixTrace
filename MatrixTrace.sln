@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixApp", "MatrixApp\MatrixApp.csproj", "{B156DB6C-0132-4887-8552-6315A6166269}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CECD4F77-F274-42DE-BD8B-1326CF8A6069} = {CECD4F77-F274-42DE-BD8B-1326CF8A6069}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixLibrary", "MatrixLibrary\MatrixLibrary.csproj", "{CECD4F77-F274-42DE-BD8B-1326CF8A6069}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixLibraryTests", "MatrixLibraryTests\MatrixLibraryTests.csproj", "{43C71F7A-1019-4E84-8974-240E9C2FF134}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CECD4F77-F274-42DE-BD8B-1326CF8A6069} = {CECD4F77-F274-42DE-BD8B-1326CF8A6069}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B156DB6C-0132-4887-8552-6315A6166269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B156DB6C-0132-4887-8552-6315A6166269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B156DB6C-0132-4887-8552-6315A6166269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B156DB6C-0132-4887-8552-6315A6166269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CECD4F77-F274-42DE-BD8B-1326CF8A6069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECD4F77-F274-42DE-BD8B-1326CF8A6069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECD4F77-F274-42DE-BD8B-1326CF8A6069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECD4F77-F274-42DE-BD8B-1326CF8A6069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C71F7A-1019-4E84-8974-240E9C2FF134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C71F7A-1019-4E84-8974-240E9C2FF134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C71F7A-1019-4E84-8974-240E9C2FF134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C71F7A-1019-4E84-8974-240E9C2FF134}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE437A9E-930F-4E27-8007-240DAACF9B94}
+	EndGlobalSection
+EndGlobal
